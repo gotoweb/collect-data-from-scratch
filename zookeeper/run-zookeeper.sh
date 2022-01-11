@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd apache-zookeeper-3.6.2-bin/
+cd apache-zookeeper-3.6.3-bin/
 
 if [ -n "${STANDALONE_MODE}" ]; then
     cd conf/

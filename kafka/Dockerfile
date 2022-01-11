@@ -4,9 +4,9 @@ WORKDIR /kafka
 
 # Get Kafka
 RUN apt-get update -qq && apt-get install wget -y -qq && \
-    wget --quiet https://downloads.apache.org/kafka/2.6.0/kafka_2.13-2.6.0.tgz && \
-    tar -zxf kafka_2.13-2.6.0.tgz && \
-    cd kafka_2.13-2.6.0
+    wget --quiet https://dlcdn.apache.org/kafka/3.0.0/kafka_2.12-3.0.0.tgz && \
+    tar -zxf kafka_2.12-3.0.0.tgz && \
+    cd kafka_2.12-3.0.0
 
 # Make directory for storing log
 RUN mkdir -p /data

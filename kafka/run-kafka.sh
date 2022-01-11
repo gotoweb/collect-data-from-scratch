@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd kafka_2.13-2.6.0
+cd kafka_2.12-3.0.0
 
 # Set log file directory
 sed -i 's/log.dirs=\/tmp\/kafka-logs/log.dirs=\/data/' config/server.properties
